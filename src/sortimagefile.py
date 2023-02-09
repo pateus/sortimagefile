@@ -11,13 +11,19 @@ from win32_setctime import setctime
 from mydesign import Ui_MainWindow
 
 loc = locale.getlocale()
+extDataDir = os.getcwd()
 
+try:
+    extDataDir = sys._MEIPASS
+except Exception:
+    extDataDir = os.getcwd()
+localedir = os.path.join(extDataDir, 'locale')
 if loc[0] == 'Russian_Russia':
-    ru = gettext.translation('sortimagefile', localedir='locale', languages=['ru'])
+    ru = gettext.translation('sortimagefile', localedir, languages=['ru'])
     ru.install()
     _ = ru.gettext
 else:
-    en = gettext.translation('sortimagefile', localedir='locale', languages=['en'])
+    en = gettext.translation('sortimagefile', localedir, languages=['en'])
     en.install()
     _ = en.gettext
 
