@@ -21,7 +21,6 @@ else:
     en.install()
     _ = en.gettext
 
-
 error_log = list()
 directory = set()
 image_list = (
@@ -29,7 +28,6 @@ image_list = (
     '3g2',
     'mpg', 'mpeg', 'm4v',
     'h264', 'flv', 'rm', 'swf', 'vob')
-
 
 def read_catalogs(self, dir_name):
     try:
