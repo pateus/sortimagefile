@@ -1,0 +1,88 @@
+
+msgid ""
+msgstr ""
+
+"Content-Type: text/plain; charset=UTF-8\n"
+
+
+
+#: sortimagefile.py:85
+msgid " Failed to create directory %s"
+msgstr ""
+
+#: sortimagefile.py:88
+msgid " Directory %s created"
+msgstr ""
+
+#: sortimagefile.py:105
+msgid "Sort image and video files by time"
+msgstr ""
+
+#: sortimagefile.py:106
+msgid "Directory with source files"
+msgstr ""
+
+#: sortimagefile.py:107 sortimagefile.py:110
+msgid "Directory selection"
+msgstr ""
+
+#: sortimagefile.py:108
+msgid "Including sub directories"
+msgstr ""
+
+#: sortimagefile.py:109
+msgid "Directory for saving files"
+msgstr ""
+
+#: sortimagefile.py:111
+msgid "years"
+msgstr ""
+
+#: sortimagefile.py:112
+msgid "months"
+msgstr ""
+
+#: sortimagefile.py:113
+msgid "days"
+msgstr ""
+
+#: sortimagefile.py:114
+msgid "Sort files by"
+msgstr ""
+
+#: sortimagefile.py:115
+msgid "Start sorting"
+msgstr ""
+
+#: sortimagefile.py:116
+msgid "Create log.txt"
+msgstr ""
+
+#: sortimagefile.py:124
+msgid "Select a directory with source files"
+msgstr ""
+
+#: sortimagefile.py:130
+msgid "Choose a directory to save files"
+msgstr ""
+
+#: sortimagefile.py:142
+msgid "Source files directory not selected"
+msgstr ""
+
+#: sortimagefile.py:145
+msgid "The directory for saving files is not selected"
+msgstr ""
+
+#: sortimagefile.py:149
+msgid "Directories match"
+msgstr ""
+
+#: sortimagefile.py:153
+msgid "Select temporary sort options"
+msgstr ""
+
+#: sortimagefile.py:157
+msgid " Start sorting "
+msgstr ""
+
